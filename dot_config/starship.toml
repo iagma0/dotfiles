@@ -1,0 +1,29 @@
+# Starship config
+format = '$all'
+right_format = """$time"""
+
+[time]
+disabled = false
+time_format = '%R'
+style = "#939594"
+format = "[$time]($style)"
+
+[username]
+style_user = 'yellow bold'
+style_root = 'red bold'
+format = '\[[$user]($style)\] '
+#disabled = false
+show_always = true
+aliases = { "iagma" = "iagma" }
+
+[hostname]
+#ssh_only = false
+
+[directory]
+format = '[$path]($style)[$read_only]($read_only_style) '
+style = 'blue bold'
+truncation_symbol = '.../'
+
+[cmd_duration]
+min_time = 120_000 # in milliseconds
+format = 'took [$duration](white bold) '

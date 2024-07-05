@@ -1,0 +1,19 @@
+# SHELL ALIASES
+
+# git
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit'
+alias gp='git push'
+alias gpl='git pull'
+
+# ls/eza
+alias ls='eza'
+alias ll='eza --long'
+alias la='eza --all'
+alias lla='eza --all --long'
+alias lt='eza --tree --level=2'
+alias lta='eza --all --tree --level=2'
+
+# grep
+grep='grep --color=auto'

@@ -1,0 +1,241 @@
+neofetch
+paru
+which zsh
+echo $SHELL
+chsh -s $(which zsh)
+echo $SHELL
+chsh iagma -s /bin/zsh
+echo $SHELL
+echo $SHELL)
+echo $SHELL
+su
+su
+ranger
+ranger
+ls
+eza
+paru exa
+paru eza
+eza
+eza Pictures
+tldr eza
+eza --long --all
+eza --one-line
+eza --oneline
+eza --long
+eza --long --all
+cd git/academia_private/FLUP_MLIN/Dissertação
+ls
+eza
+eza --long
+eza --tree
+cd ..
+eza --tree --level=3
+eza --tree --level=2
+cd
+cd git/academia_private
+eza --tree --level=2
+eza --tree
+eza --tree --level=1
+eza --tree --level=2
+ranger
+cd
+nvim .zshrc
+cd
+touch .zalias
+nvim .zalias
+ls
+source zsh
+ls
+ll
+ls
+la
+ls
+nvim .zalias
+la
+ll
+ls
+ll
+ls
+lla
+ll
+lla
+lt
+nvim .zshrc
+nvim .zalias
+nvim .bashrc
+nvim .zalias
+cat .zalias | grep alias
+bAT .ZALIas | grep alias
+bat .zalias | grep alias
+paru bat
+bat .zalias | grep alias
+bat .zalias | grep alias --color=auto
+bat .zalias | grep alias
+bat .zalias | grep alias --color=auto
+nvim .zalias
+man grep
+nvim .zalias
+cd git/academia_private/
+gs
+gpl
+cd git/academia_private/
+gpl
+gs
+git add .
+gc -m "MLIN work"
+gp
+cd
+nvim .zshrc
+setopt HISTSAvenodups
+nvim .zshenv
+ls
+ll
+lla
+ranger
+paru starship
+nvim .zshrc
+cd git/
+cd academia_private
+gs
+cd FLUP_MLIN/Linguística\ Forense/corpora/rcp
+la
+touch starship.toml
+cd .config
+(\
+a\
+)
+ranger
+starship preset tokyo-night -o ~/.config/starship.toml
+nvim starship.toml
+starship preset gruvbox-rainbow -o ~/.config/starship.toml
+ls
+ll
+paru zsh-syntax
+echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+cd
+nvim .zshrc
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+fzf
+paru zsh-syntax
+cd
+nvim .zshrc
+ranger /usr/share/
+cd Downloads/zoterolist
+ll
+la
+cd Honidia/00\ Templates
+cd
+nvim .zshrc
+cd .config/
+nvim starship.tomlbak
+ranger
+sudo cd
+ls
+nvim starship.toml
+nvim starship.toml
+nvim .config/starship.toml
+cd Downloads
+cd Downloads/Telegram\ Desktop
+cd ..
+cd Linguística\ Forense/beamer
+ll
+nvim ~/.config/starship.toml
+cd git/academia_private/FLUP_MLIN/Linguística\ Forense/corpora
+cd
+ls
+lla
+paru zsh-vi
+nvim .zshrc
+abc git/academia_private/FLUP_MLIN/Linguística\ Forense/
+nvim ~/.config/starship.toml
+fzf
+fzf | nvim
+cd git/academia_private/
+git pull
+gs
+ranger
+paru
+shutdown now
+nvim .zshrc
+nvim .zshrc 
+nvim .zshrc
+paru -Rns zsh-syntax-highlighting
+paru fast-syntax
+echo $fsh
+echo $(fsh)
+ranger
+nvim .zshrc
+nvim .zshrc
+cd /usr/share/zsh/plugins/fast-syntax-highlighting/
+ls
+ll
+lla
+ranger
+nvim .zshrc
+paru rg
+paru bat
+paru ripgrep
+paru fzf-zsh
+paru fzf zsh
+cd /usr/share/zsh/plugins/fast-syntax-highlighting/
+ranger
+nvim .zshrc
+nvim /usr/share/zsh/plugins/zsh-vi-mode
+nvim /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.zsh
+sudo nvim /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.zsh
+paru fzf tab
+cd /usr/share/zsh/plugins/fast-syntax-highlighting/
+nvim .zshrc
+ranger
+cd /usr/share/zsh/plugins/fzf-tab-git
+ls
+\:q
+cd
+paru --query python
+cd git/academia_private/FLUP_MLIN/Dissertação/Proposta
+ls
+cd
+fzf
+nvim .zshrc 
+echo ('$XDG_CONFIG_DIR')
+echo '$XDG_CONFIG_DIR'
+echo ($XDG_CONFIG_DIR)
+echo $XDG_CONFIG_DIR
+echo $SHELL && $SHELL --version
+echo $XDG_CONFIG_HOME
+echo $XDG_STATE_HOME
+echo $XDG_SESSION_PATH
+echo $PATH
+echo $CONFIG
+echo $COLORTERM
+nvim --help
+which nvim
+nvim --version
+paru kickstart
+git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+ranger
+nvim
+cd git/academia_private/Research/The\ Room\ Where\ It\ Happened
+ls
+nvim main.py
+nvim RedRoom.ipynb
+paru mason
+paru lazy
+paru lazy nvim
+paru packer
+nvim .config/nvim/init.lua
+ranger
+nvim
+cd /usr/local/share/
+ls
+ranger
+nvim .config/nvim/init.lua
+nvim ~/.config/nvim/init.lua
+fzf onedark
+fzf -f onedark
+fzf -f onedark | grep 'onedark
+fzf -f onedark | grep 'onedark'
+ranger
+ll
+lla

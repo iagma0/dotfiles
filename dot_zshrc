@@ -1,0 +1,60 @@
+
+# The following lines were added by compinstall
+
+zstyle ':completion:*' auto-description 'arg: %d'
+zstyle ':completion:*' completer _expand _complete _ignored _approximate
+zstyle ':completion:*' format 'Completing %d'
+zstyle ':completion:*' group-name ''
+zstyle ':completion:*' insert-unambiguous false
+zstyle ':completion:*' list-colors ''
+zstyle ':completion:*' list-prompt %SAt %l: Hit TAB for more, or the character to insert%s
+zstyle ':completion:*' matcher-list ''
+zstyle ':completion:*' menu select=1
+zstyle ':completion:*' original true
+zstyle ':completion:*' select-prompt %SScrolling active: current selection at %l%s
+zstyle :compinstall filename '/home/iagma/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.zhistory
+HISTSIZE=1000
+SAVEHIST=1000
+setopt autocd nomatch
+unsetopt beep extendedglob notify
+#bindkey -v
+# End of lines configured by zsh-newuser-install
+
+## User configuration starts here ##
+
+# source aliases
+source ~/.zalias
+
+# set env vars
+export VISUAL=nvim
+export EDITOR=nvim
+
+# Make Vi mode transitions faster (KEYTIMEOUT is in hundredths of a second)
+export KEYTIMEOUT=1
+
+# set options
+setopt HIST_SAVE_NO_DUPS
+
+# enable starship prompt
+eval "$(starship init zsh)"
+
+## Plugins
+# enable vim-mode
+source /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh
+ZVM_INIT_MODE=sourcing # forces zvm to load now rather than last, so as not to overwrite keybindings
+
+# enable fzf tab completion
+source /usr/share/zsh/plugins/fzf-tab-git/fzf-tab.plugin.zsh
+
+# enable syntax hilighting
+source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+
+# enable fzf history
+source /usr/share/zsh/plugins/zsh-fzf-plugin/fzf.plugin.zsh
+
